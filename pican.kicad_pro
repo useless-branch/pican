@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,22 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|2230000|8370000|9154cd16-fc10-451a-8198-883e11ba3093|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|2865000|59065000|3204ee85-665f-4eb1-94cb-632755415994|e98f344c-ec0c-49a1-9426-5e4db22606d6",
+        "clearance|2865000|5935000|7da68d44-2207-4cd4-bbce-c6636aa34806|8399131f-9a4d-42e3-976f-f3b6c2d8b335",
+        "clearance|3580000|7020000|20c55552-c9c4-4952-b073-1ac36d0aa8be|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|3580000|7020000|4039b1aa-1cb4-401e-9067-c595a0205dc9|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|3700000|6900000|af8e1ab5-464c-4579-84cd-114504d0dd29|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|3700000|6900000|e1e2f964-616c-435b-8edb-15e5119cf18b|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|3920000|7520000|7da68d44-2207-4cd4-bbce-c6636aa34806|ce45347a-633c-435f-a59e-1996db2b5c4b",
+        "clearance|4135000|59065000|3204ee85-665f-4eb1-94cb-632755415994|9d52906f-a768-471b-88b1-fdd5e37c723f",
+        "clearance|5200000|6700000|2cdd8058-0521-4e59-88cd-e207d1e3eb29|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|5200000|6700000|9391adfd-776f-47b9-9e10-a4b9db23af36|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|6099022|6700000|a2cb4150-b00b-40c9-854e-bbdf4988079f|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|6350000|6980000|2b92ce03-063b-46a1-9094-47809e792ab7|7da68d44-2207-4cd4-bbce-c6636aa34806",
+        "clearance|6350000|6980000|3480601a-6f26-45a3-b07d-c8bdde331088|7da68d44-2207-4cd4-bbce-c6636aa34806"
+      ],
       "meta": {
         "version": 2
       },
@@ -124,7 +139,8 @@
         0.25,
         0.3,
         0.45,
-        0.6
+        0.6,
+        1.0
       ],
       "via_dimensions": [
         {
