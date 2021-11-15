@@ -8,14 +8,14 @@ fp-lib-table
 *.kicad_pcb-bak
 *.sch-bak
 fp-info-cache
-bom
+/bom
 *.csv
 *.xml
 *.kicad_prl
 *-backups
 *.net
 _autosave*
-/sensor_board/gbr
+/gerber
 *.gbr
 *.gbrjob
 *.zip
